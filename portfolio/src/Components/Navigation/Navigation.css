@@ -1,15 +1,19 @@
 .main-nav {
     width: 100%;
     height: 35px;
-    border-top: 1px solid #e6e6e6;
-    border-bottom: 1px solid #e6e6e6;
-    color: #b8b8b8;
+    border-top: 1px solid #00BFFF;
+    border-bottom: 1px solid #00BFFF;
+    color: #FFD700;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 20px 0;
 }
 
+.main-nav a:hover {
+    color: #F88C00;
+}
+
 .active {
-    color: #C64A3D;
+    color: #cf4839;
 }

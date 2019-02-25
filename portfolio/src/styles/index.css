@@ -5,12 +5,13 @@
 
 html {
     font-size: 62.5%;
+    background: #272f3f;
 }
 
 body {
     font-size: 1.6rem;
     font-family: 'Nunito', sans-serif;
-    color: #1c1c1c;
+    color: goldenrod;
 }
 
 img {

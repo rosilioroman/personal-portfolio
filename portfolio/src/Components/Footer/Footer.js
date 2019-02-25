@@ -7,7 +7,7 @@ const Footer = props => {
             <div className="footer-links">
                 <div className="f-link">
                     <a href="/">
-                        <i class="fas fa-file-alt"></i>
+                        <i className="fas fa-file-alt"></i>
                     </a>
                 </div>
                 <div className="f-link">
@@ -16,7 +16,7 @@ const Footer = props => {
                         target="_blank" 
                         rel="noopener noreferrer"
                     >
-                        <i class="fab fa-github"></i>
+                        <i className="fab fa-github"></i>
                     </a>
                 </div>
                 <div className="f-link">
@@ -25,7 +25,7 @@ const Footer = props => {
                         target="_blank" 
                         rel="noopener noreferrer"
                     >
-                        <i class="fab fa-linkedin-in"></i>
+                        <i className="fab fa-linkedin-in"></i>
                     </a>
                 </div>
             </div>

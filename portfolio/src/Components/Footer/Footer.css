@@ -9,9 +9,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 2rem;
     color: #C64A3D;
 }
 
 .f-link:hover {
-    color: #1c1c1c;
+    color: #F88C00;
 }
