@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
 
 import NavBar from '../Navigation/NavBar';
@@ -6,7 +7,11 @@ import NavBar from '../Navigation/NavBar';
 const Header= props => {
     return(
         <header className="app-header">
-            <h1 className="title">Rosilio Roman</h1>
+            <Link to="/">
+                <h1 className="title">
+                    {`{Rosilio_Roman`}<span className="cursor">|</span>{`}`}
+                </h1>
+            </Link>
             <NavBar />
         </header>
     );
