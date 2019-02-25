@@ -8,8 +8,9 @@ html {
 }
 
 body {
-    background-color: #5E44A4;
     font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #1c1c1c;
 }
 
 img {
