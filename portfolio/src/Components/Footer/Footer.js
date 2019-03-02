@@ -28,6 +28,11 @@ const Footer = props => {
                         <i className="fab fa-linkedin-in"></i>
                     </a>
                 </div>
+                <div className="f-link">
+                    <a href="mailto:rosilioroman@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
             </div>
         </footer>
     );

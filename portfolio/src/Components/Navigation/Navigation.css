@@ -15,5 +15,9 @@
 }
 
 .active {
-    color: #cf4839;
+    color: #CF4839;
+}
+
+.active:hover {
+    color: #CF4839 !important;
 }

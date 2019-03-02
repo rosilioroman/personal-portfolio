@@ -1,11 +1,12 @@
 .footer-container {
     position: fixed;
     bottom: 20px;
+    z-index: 1;
 }
 
 .footer-links {
-    width: 100px;
-    height: 30px;
+    width: 150px;
+    height: 35px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,4 +16,10 @@
 
 .f-link:hover {
     color: #F88C00;
+}
+
+@media (max-width: 800px) {
+    .footer-container {
+        position: static;
+    }
 }

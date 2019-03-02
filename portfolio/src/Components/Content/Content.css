@@ -25,6 +25,32 @@ p {
     text-decoration: underline #00BFFF;
 }
 
+/* About Me Page */
+.about-me-content {
+    width: 100%;
+    display: flex;
+    margin: 20px 0;
+}
+
+.about-me-text {
+    width: 50%;
+    line-height: 1.25;
+    padding: 20px;
+}
+
+.about-me-pic {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.self-portrait {
+    border-radius: 50%;
+    max-width: 250px;
+}
+
 /* Skills Page */
 .skills-content {
     width: 100%;
