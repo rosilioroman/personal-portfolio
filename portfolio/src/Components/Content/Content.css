@@ -1,0 +1,24 @@
+h3 {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #FFD700;
+}
+
+p {
+    margin: 20px 0;
+    line-height: 1.25;
+}
+
+.landing-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lambda-link {
+    color: #cf4839;
+    text-decoration: underline #00BFFF;
+}

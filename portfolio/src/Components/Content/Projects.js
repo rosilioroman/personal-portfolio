@@ -1,7 +1,13 @@
 import React from 'react';
 
 const Projects = props => {
-    return <section>Testing Projects</section>;
+    return (
+        <section>
+            <h3>
+                {`{ Projects }`}
+            </h3>
+        </section>
+    );
 }
 
 export default Projects;

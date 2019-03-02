@@ -5,7 +5,7 @@ import './Navigation.css';
 const NavBar = props => {
     return(
         <nav className="main-nav">
-            <NavLink exact to="/">Resume</NavLink>
+            <NavLink exact to="/">Resum&eacute;</NavLink>
             <NavLink exact to="/about">About Me</NavLink>
             <NavLink exact to="/projects">Projects</NavLink>
             <NavLink exact to="/skills">Skills</NavLink>
