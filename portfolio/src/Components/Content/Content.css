@@ -1,3 +1,4 @@
+/* General Styles */
 h3 {
     font-family: 'Ubuntu Mono', monospace;
     font-size: 2rem;
@@ -10,7 +11,7 @@ p {
     line-height: 1.25;
 }
 
-.landing-page {
+.content-container {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -18,7 +19,17 @@ p {
     align-items: center;
 }
 
+/* Landing Page */
 .lambda-link {
-    color: #cf4839;
+    color: #CF4839;
     text-decoration: underline #00BFFF;
+}
+
+/* Skills Page */
+.skills-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }

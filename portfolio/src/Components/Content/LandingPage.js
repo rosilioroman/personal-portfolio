@@ -3,7 +3,7 @@ import './Content.css';
 
 const LandingPage = props => {
     return(
-        <section className="landing-page">
+        <section className="content-container">
             <h3>
                 {`{ Welcome }`}
             </h3>

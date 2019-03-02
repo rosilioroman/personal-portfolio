@@ -11,7 +11,7 @@
   font-size: 4.5rem;
   font-weight: bold;
   margin: 30px 0;
-  color: #cf4839;
+  color: #CF4839;
   font-family: 'Ubuntu Mono', monospace;
 }
 
@@ -45,7 +45,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .app-header {
     width: 100%;
     padding: 0 10px;
